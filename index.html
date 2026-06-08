@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="OLYMPIA GYM provides premium fitness training, weight loss programs, muscle building, personal coaching, and modern gym facilities for serious fitness transformations.">
+    <meta name="keywords" content="OLYMPIA GYM, Gym, Fitness Center, Personal Training, Weight Loss, Muscle Building, Body Transformation, Fitness Coaching">
+    <meta name="author" content="OLYMPIA GYM">
+    <meta name="theme-color" content="#0a0e27">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="OLYMPIA GYM | Elite Fitness & Transformation Center">
+    <meta property="og:description" content="Premium fitness training, weight loss programs, muscle building, and personal coaching.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630/0a0e27/ff1744?text=OLYMPIA+GYM">
+    
+    <title>OLYMPIA GYM | Elite Fitness & Transformation Center</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext x='50' y='65' font-size='70' fill='%23ff1744' text-anchor='middle' font-weight='bold'%3EOG%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loadingScreen" class="loading-screen">
+        <div class="loading-container">
+            <div class="loading-logo">
+                <span class="logo-text">O</span>
+                <span class="logo-text">L</span>
+                <span class="logo-text">Y</span>
+                <span class="logo-text">M</span>
+                <span class="logo-text">P</span>
+                <span class="logo-text">I</span>
+                <span class="logo-text">A</span>
+            </div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+            <p class="loading-text">TRANSFORMING BODIES, BUILDING LEGENDS</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">⚡</span>
+                <span class="logo-text-nav">OLYMPIA GYM</span>
+            </div>
+            
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#owner" class="nav-link">About Owner</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#bmi" class="nav-link">BMI Calculator</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+            <div class="hero-particles"></div>
+            <div class="hero-lights">
+                <div class="light light-1"></div>
+                <div class="light light-2"></div>
+                <div class="light light-3"></div>
+            </div>
+        </div>
+
+        <div class="hero-content">
+            <h1 class="hero-title">Transform Your Body at OLYMPIA GYM</h1>
+            <p class="hero-subtitle">Where Discipline Meets Destiny. Become Your Ultimate Self</p>
+            
+            <div class="hero-buttons">
+                <button class="btn btn-primary" id="joinBtn">JOIN NOW</button>
+                <button class="btn btn-secondary" id="servicesBtn">OUR SERVICES</button>
+            </div>
+
+            <div class="hero-icons">
+                <div class="icon-float">💪</div>
+                <div class="icon-float">🏋️</div>
+                <div class="icon-float">⚡</div>
+            </div>
+
+            <div class="scroll-indicator">
+                <span>SCROLL TO EXPLORE</span>
+                <div class="scroll-arrow"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Owner Section -->
+    <section id="owner" class="about-owner">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image-wrapper">
+                    <div class="about-image">
+                        <img src="https://via.placeholder.com/400x500/1a1f3a/ff1744?text=OLYMPIA+OWNER" alt="OLYMPIA GYM Owner - Fitness Coach" loading="lazy">
+                        <div class="image-glow"></div>
+                    </div>
+                </div>
+
+                <div class="about-text">
+                    <h2 class="section-title">Meet Your Coach</h2>
+                    <h3 class="about-name">OLYMPIA GYM OWNER</h3>
+                    <p class="about-designation">Founder & Certified Fitness Coach</p>
+                    
+                    <p class="about-description">
+                        With over a decade of experience in elite fitness training, I've dedicated my life to transforming bodies and building champions. At OLYMPIA GYM, we don't just train bodies – we sculpt legends. Every member is a warrior on their transformation journey.
+                    </p>
+
+                    <p class="about-philosophy">
+                        <strong>My Philosophy:</strong> Discipline is freedom. Consistency is power. Every rep, every day, every sacrifice brings you closer to your ultimate potential. Your transformation starts when you decide it's non-negotiable.
+                    </p>
+
+                    <div class="about-buttons">
+                        <button class="btn btn-primary btn-small" id="contactOwnerBtn">CONTACT NOW</button>
+                        <button class="btn btn-secondary btn-small" id="joinOwnerBtn">JOIN TODAY</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">PREMIUM SERVICES</h2>
+            <p class="section-subtitle">Comprehensive fitness solutions tailored to your goals</p>
+
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-icon">🏋️</div>
+                    <h3>Weight Training</h3>
+                    <p>Master progressive strength training with expert guidance. Build lean muscle, increase metabolic rate, and develop athletic physiques through scientifically-designed weight training programs at OLYMPIA GYM.</p>
+                    <div class="service-glow"></div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="service-icon">🔥</div>
+                    <h3>Fat Loss Program</h3>
+                    <p>Transform your body with our elite fat loss programs. Combining high-intensity training with nutrition coaching, we deliver visible results in weeks. OLYMPIA GYM's fat loss transformation is your ticket to confidence.</p>
+                    <div class="service-glow"></div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-icon">👨‍🏫</div>
+                    <h3>Personal Training</h3>
+                    <p>One-on-one expert coaching with OLYMPIA GYM's certified trainers. Personalized workout plans, form correction, and motivation to push beyond your limits. Your dedicated path to extraordinary results starts here.</p>
+                    <div class="service-glow"></div>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-card">
+                    <div class="service-icon">💨</div>
+                    <h3>Cardio Training</h3>
+                    <p>Build endurance and cardiovascular strength with advanced cardio programs. From high-intensity intervals to steady-state training, OLYMPIA GYM designs cardio solutions for optimal fitness and athletic performance.</p>
+                    <div class="service-glow"></div>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="service-card">
+                    <div class="service-icon">💪</div>
+                    <h3>Muscle Building</h3>
+                    <p>Hypertrophy-focused training for serious muscle gains. OLYMPIA GYM combines advanced lifting techniques with strategic nutrition to maximize muscle growth and achieve the physique of champions.</p>
+                    <div class="service-glow"></div>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="service-card">
+                    <div class="service-icon">⚡</div>
+                    <h3>Performance Coaching</h3>
+                    <p>Elevate your athletic abilities through specialized performance training. OLYMPIA GYM athletes achieve peak conditioning, strength benchmarks, and mental toughness for elite-level results in any sport.</p>
+                    <div class="service-glow"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2 class="section-title">MEMBERSHIP PLANS</h2>
+            <p class="section-subtitle">Choose your transformation tier</p>
+
+            <div class="pricing-grid">
+                <!-- Basic Plan -->
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>BASIC</h3>
+                        <p class="pricing-badge">Starter</p>
+                    </div>
+                    <div class="pricing-amount">
+                        <span class="currency">₹</span>
+                        <span class="price">399</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ Gym Access 24/7</li>
+                        <li>✓ Basic Equipment Access</li>
+                        <li>✓ Locker Room & Showers</li>
+                        <li>✓ Monthly Group Classes</li>
+                        <li>✗ Personal Training</li>
+                    </ul>
+                    <button class="btn btn-secondary" data-plan="Basic">CHOOSE PLAN</button>
+                </div>
+
+                <!-- Standard Plan -->
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>STANDARD</h3>
+                        <p class="pricing-badge">Popular</p>
+                    </div>
+                    <div class="pricing-amount">
+                        <span class="currency">₹</span>
+                        <span class="price">699</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ 24/7 Gym Access</li>
+                        <li>✓ All Equipment Access</li>
+                        <li>✓ Unlimited Classes</li>
+                        <li>✓ 4 Personal Training</li>
+                        <li>✓ Diet Consultation</li>
+                    </ul>
+                    <button class="btn btn-secondary" data-plan="Standard">CHOOSE PLAN</button>
+                </div>
+
+                <!-- Premium Plan -->
+                <div class="pricing-card premium">
+                    <div class="premium-badge">FEATURED</div>
+                    <div class="pricing-header">
+                        <h3>PREMIUM</h3>
+                        <p class="pricing-badge">Elite</p>
+                    </div>
+                    <div class="pricing-amount">
+                        <span class="currency">₹</span>
+                        <span class="price">1499</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ 24/7 VIP Access</li>
+                        <li>✓ Premium Equipment</li>
+                        <li>✓ Unlimited Everything</li>
+                        <li>✓ Unlimited Personal Training</li>
+                        <li>✓ Nutrition + Lifestyle Coaching</li>
+                        <li>✓ Progress Tracking & Analysis</li>
+                    </ul>
+                    <button class="btn btn-primary" data-plan="Premium">CHOOSE PLAN</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">OLYMPIA GALLERY</h2>
+            <p class="section-subtitle">Premium facilities and transformations</p>
+
+            <div class="gallery-grid">
+                <div class="gallery-item" data-image="https://via.placeholder.com/600x400/1a1f3a/ff1744?text=Weight+Training">
+                    <img src="https://via.placeholder.com/600x400/1a1f3a/ff1744?text=Weight+Training" alt="Premium Weight Training Area at OLYMPIA GYM" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Weight Training Area</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-image="https://via.placeholder.com/600x400/1a1f3a/ff1744?text=Cardio+Zone">
+                    <img src="https://via.placeholder.com/600x400/1a1f3a/ff1744?text=Cardio+Zone" alt="Advanced Cardio Training Zone" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Cardio Zone</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-image="https://via.placeholder.com/600x400/1a1f3a/ff1744?text=Personal+Training">
+                    <img src="https://via.placeholder.com/600x400/1a1f3a/ff1744?text=Personal+Training" alt="One-on-One Personal Training Sessions" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Personal Training</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-image="https://via.placeholder.com/600x400/1a1f3a/ff1744?text=Group+Classes">
+                    <img src="https://via.placeholder.com/600x400/1a1f3a/ff1744?text=Group+Classes" alt="High-Energy Group Fitness Classes" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Group Classes</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-image="https://via.placeholder.com/600x400/1a1f3a/ff1744?text=Premium+Facilities">
+                    <img src="https://via.placeholder.com/600x400/1a1f3a/ff1744?text=Premium+Facilities" alt="State-of-the-Art Gym Facilities" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Premium Facilities</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-image="https://via.placeholder.com/600x400/1a1f3a/ff1744?text=Transformations">
+                    <img src="https://via.placeholder.com/600x400/1a1f3a/ff1744?text=Transformations" alt="Member Transformation Success Stories" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Success Stories</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Lightbox Modal -->
+        <div id="lightbox" class="lightbox">
+            <div class="lightbox-content">
+                <span class="lightbox-close">&times;</span>
+                <img id="lightboxImage" src="" alt="Gallery Image">
+            </div>
+        </div>
+    </section>
+
+    <!-- About OLYMPIA GYM Section -->
+    <section class="about-gym">
+        <div class="container">
+            <h2 class="section-title">ABOUT OLYMPIA GYM</h2>
+            
+            <div class="about-gym-content">
+                <div class="about-gym-text">
+                    <h3>The OLYMPIA Legacy</h3>
+                    <p>
+                        OLYMPIA GYM stands as a beacon of elite fitness training. Our state-of-the-art facilities, world-class trainers, and unwavering commitment to member success have created a community of champions. We don't just offer gym memberships – we provide transformation.
+                    </p>
+                    <p>
+                        Every piece of equipment is premium. Every trainer is certified. Every program is scientifically designed. Your success is our mission.
+                    </p>
+                </div>
+
+                <div class="stats-container">
+                    <div class="stat-card">
+                        <h4 class="stat-number" data-count="5000">0</h4>
+                        <p class="stat-label">Active Members</p>
+                    </div>
+                    <div class="stat-card">
+                        <h4 class="stat-number" data-count="25">0</h4>
+                        <p class="stat-label">Expert Trainers</p>
+                    </div>
+                    <div class="stat-card">
+                        <h4 class="stat-number" data-count="500">0</h4>
+                        <p class="stat-label">Machines & Equipment</p>
+                    </div>
+                    <div class="stat-card">
+                        <h4 class="stat-number" data-count="3500">0</h4>
+                        <p class="stat-label">Transformations</p>
+                    </div>
+                </div>
+            </div>
+
+            <button class="btn btn-primary" id="bookMembershipBtn">BOOK MEMBERSHIP</button>
+        </div>
+    </section>
+
+    <!-- BMI Calculator Section -->
+    <section id="bmi" class="bmi-calculator">
+        <div class="container">
+            <h2 class="section-title">BMI CALCULATOR</h2>
+            <p class="section-subtitle">Discover your fitness starting point</p>
+
+            <div class="calculator-wrapper">
+                <div class="calculator-card">
+                    <div class="input-group">
+                        <label for="height">Height (cm)</label>
+                        <input type="number" id="height" placeholder="Enter your height" min="50" max="300">
+                    </div>
+
+                    <div class="input-group">
+                        <label for="weight">Weight (kg)</label>
+                        <input type="number" id="weight" placeholder="Enter your weight" min="20" max="300">
+                    </div>
+
+                    <button class="btn btn-primary" id="calculateBtn">CALCULATE BMI</button>
+
+                    <div class="bmi-result" id="bmiResult" style="display: none;">
+                        <div class="result-value">
+                            <span id="bmiValue">0</span>
+                            <span id="bmiCategory">-</span>
+                        </div>
+                        <p id="bmiMessage" class="bmi-message"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews">
+        <div class="container">
+            <h2 class="section-title">MEMBER TESTIMONIALS</h2>
+            <p class="section-subtitle">Real transformations from OLYMPIA GYM members</p>
+
+            <div class="reviews-slider">
+                <div class="review-card">
+                    <div class="review-header">
+                        <img src="https://via.placeholder.com/60x60/1a1f3a/ff1744?text=MR1" alt="Member Review" loading="lazy">
+                        <div class="review-info">
+                            <h4>Rajesh Kumar</h4>
+                            <p>Weight Loss Transformation</p>
+                        </div>
+                    </div>
+                    <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                    <p class="review-text">
+                        "OLYMPIA GYM transformed my life! In 6 months, I lost 25kg and gained confidence. The trainers are incredible, and the facilities are world-class. This isn't just a gym – it's a transformation center!"
+                    </p>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <img src="https://via.placeholder.com/60x60/1a1f3a/ff1744?text=MR2" alt="Member Review" loading="lazy">
+                        <div class="review-info">
+                            <h4>Priya Singh</h4>
+                            <p>Muscle Building Success</p>
+                        </div>
+                    </div>
+                    <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                    <p class="review-text">
+                        "As someone new to fitness, OLYMPIA GYM's personal trainers made me feel welcome and guided me perfectly. The results speak for themselves – I've built lean muscle and feel stronger than ever!"
+                    </p>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <img src="https://via.placeholder.com/60x60/1a1f3a/ff1744?text=MR3" alt="Member Review" loading="lazy">
+                        <div class="review-info">
+                            <h4>Aditya Patel</h4>
+                            <p>Athletic Performance</p>
+                        </div>
+                    </div>
+                    <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                    <p class="review-text">
+                        "OLYMPIA GYM's performance training elevated my athletic abilities. The coaching, equipment quality, and community are unmatched. Best investment in my fitness journey!"
+                    </p>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <img src="https://via.placeholder.com/60x60/1a1f3a/ff1744?text=MR4" alt="Member Review" loading="lazy">
+                        <div class="review-info">
+                            <h4>Sneha Desai</h4>
+                            <p>Total Body Transformation</p>
+                        </div>
+                    </div>
+                    <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                    <p class="review-text">
+                        "The nutrition coaching combined with training at OLYMPIA GYM created incredible results. I'm stronger, healthier, and more confident. The community here is like family!"
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section class="social-media">
+        <div class="container">
+            <h2 class="section-title">CONNECT WITH US</h2>
+            <p class="section-subtitle">Join our elite fitness community</p>
+
+            <div class="social-grid">
+                <a href="https://wa.me/919897417774" target="_blank" class="social-card" rel="noopener noreferrer">
+                    <div class="social-icon">💬</div>
+                    <h3>WhatsApp</h3>
+                    <p>Message us instantly</p>
+                </a>
+
+                <a href="https://instagram.com" target="_blank" class="social-card" rel="noopener noreferrer">
+                    <div class="social-icon">📸</div>
+                    <h3>Instagram</h3>
+                    <p>Follow our journey</p>
+                </a>
+
+                <a href="https://facebook.com" target="_blank" class="social-card" rel="noopener noreferrer">
+                    <div class="social-icon">f</div>
+                    <h3>Facebook</h3>
+                    <p>Community updates</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Google Maps Section -->
+    <section id="map" class="map-section">
+        <div class="container">
+            <h2 class="section-title">VISIT US TODAY</h2>
+            <p class="section-subtitle">OLYMPIA GYM - Your Elite Fitness Destination</p>
+
+            <div class="map-wrapper">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.8697438428497!2d72.8479!3d19.0760!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7d0e0e0e0e0e1%3A0x0!2sOLYMPIA%20GYM!5e0!3m2!1sen!2sin!4v1234567890" width="100%" height="500" style="border:none; border-radius: 12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="location-info">
+                <h3>📍 OLYMPIA GYM</h3>
+                <p>Premium Fitness Center for Elite Transformations</p>
+                <p>📞 +91 98974 17774</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Form Section -->
+    <section id="contact" class="booking-section">
+        <div class="container">
+            <h2 class="section-title">START YOUR TRANSFORMATION</h2>
+            <p class="section-subtitle">Join OLYMPIA GYM today and become your best self</p>
+
+            <div class="booking-form-wrapper">
+                <form id="bookingForm" class="booking-form" novalidate>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="fullName" placeholder="Full Name" required>
+                            <label for="fullName">Full Name</label>
+                            <span class="form-error"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="tel" id="mobile" placeholder="Mobile Number" required>
+                            <label for="mobile">Mobile Number</label>
+                            <span class="form-error"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <select id="gender" required>
+                                <option value="">Select Gender</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="Other">Other</option>
+                            </select>
+                            <label for="gender">Gender</label>
+                            <span class="form-error"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="number" id="age" placeholder="Age" min="13" max="100" required>
+                            <label for="age">Age</label>
+                            <span class="form-error"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group full-width">
+                            <select id="fitnessGoal" required>
+                                <option value="">Select Your Fitness Goal</option>
+                                <option value="Weight Loss">Weight Loss</option>
+                                <option value="Muscle Building">Muscle Building</option>
+                                <option value="General Fitness">General Fitness</option>
+                                <option value="Athletic Performance">Athletic Performance</option>
+                                <option value="Body Transformation">Body Transformation</option>
+                            </select>
+                            <label for="fitnessGoal">Fitness Goal</label>
+                            <span class="form-error"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group full-width">
+                            <label class="services-label">Select Services</label>
+                            <div class="services-checkboxes">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="services" value="Weight Training">
+                                    <span>Weight Training</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="services" value="Fat Loss Program">
+                                    <span>Fat Loss Program</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="services" value="Personal Training">
+                                    <span>Personal Training</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="services" value="Cardio Training">
+                                    <span>Cardio Training</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="services" value="Muscle Building">
+                                    <span>Muscle Building</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group full-width">
+                            <select id="pricingPlan" required>
+                                <option value="">Select Membership Plan</option>
+                                <option value="Basic - ₹399/month">Basic - ₹399/month</option>
+                                <option value="Standard - ₹699/month">Standard - ₹699/month</option>
+                                <option value="Premium - ₹1499/month">Premium - ₹1499/month</option>
+                            </select>
+                            <label for="pricingPlan">Membership Plan</label>
+                            <span class="form-error"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="date" id="joiningDate" required>
+                            <label for="joiningDate">Joining Date</label>
+                            <span class="form-error"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Email" required>
+                            <label for="email">Email</label>
+                            <span class="form-error"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group full-width">
+                            <input type="text" id="address" placeholder="Address" required>
+                            <label for="address">Address</label>
+                            <span class="form-error"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group full-width">
+                            <textarea id="message" placeholder="Additional Message (Optional)" rows="4"></textarea>
+                            <label for="message">Additional Message</label>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-large">JOIN OLYMPIA GYM ON WHATSAPP</button>
+                    <p class="form-disclaimer">We'll redirect you to WhatsApp with your information pre-filled</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog">
+        <div class="container">
+            <h2 class="section-title">FITNESS INSIGHTS</h2>
+            <p class="section-subtitle">Expert tips and guides for your transformation</p>
+
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://via.placeholder.com/400x250/1a1f3a/ff1744?text=Workout+Tips" alt="Best Workout Tips at OLYMPIA GYM" loading="lazy">
+                    </div>
+                    <div class="blog-content">
+                        <h3>Best Workout Tips for Maximum Gains</h3>
+                        <p>Master the fundamentals of effective training. Learn proper form, progression techniques, and how to structure your workouts for optimal muscle growth and strength gains at OLYMPIA GYM.</p>
+                        <a href="#" class="read-more">READ MORE →</a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://via.placeholder.com/400x250/1a1f3a/ff1744?text=Diet+Plans" alt="Nutrition and Diet Plans" loading="lazy">
+                    </div>
+                    <div class="blog-content">
+                        <h3>Elite Nutrition Plans for Fitness Goals</h3>
+                        <p>Discover scientifically-designed diet plans that complement your training. Learn macronutrient ratios, meal timing, and supplementation strategies to accelerate your transformation journey.</p>
+                        <a href="#" class="read-more">READ MORE →</a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://via.placeholder.com/400x250/1a1f3a/ff1744?text=Muscle+Gain" alt="Muscle Building Guide" loading="lazy">
+                    </div>
+                    <div class="blog-content">
+                        <h3>Complete Muscle Gain Guide</h3>
+                        <p>Build exceptional muscle mass with proven hypertrophy techniques. OLYMPIA GYM coaches share advanced methods for muscle breakdown, recovery, and systematic strength progression.</p>
+                        <a href="#" class="read-more">READ MORE →</a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://via.placeholder.com/400x250/1a1f3a/ff1744?text=Fat+Loss" alt="Fat Loss Strategy" loading="lazy">
+                    </div>
+                    <div class="blog-content">
+                        <h3>Sustainable Fat Loss Strategies</h3>
+                        <p>Burn fat while preserving muscle. Learn thermogenic training, cardio programming, and nutrition strategies that create sustainable fat loss without sacrificing your gains.</p>
+                        <a href="#" class="read-more">READ MORE →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h4>OLYMPIA GYM</h4>
+                    <p>Elite Fitness. Legendary Transformations.</p>
+                    <div class="footer-social">
+                        <a href="https://wa.me/919897417774" target="_blank" rel="noopener noreferrer">💬</a>
+                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">📸</a>
+                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">f</a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h4>QUICK LINKS</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>SERVICES</h4>
+                    <ul>
+                        <li><a href="#services">Personal Training</a></li>
+                        <li><a href="#services">Weight Loss</a></li>
+                        <li><a href="#services">Muscle Building</a></li>
+                        <li><a href="#services">Cardio Training</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>CONTACT</h4>
+                    <p>📞 +91 98974 17774</p>
+                    <p>📧 info@olympiagym.com</p>
+                    <p>📍 Elite Fitness Center</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 OLYMPIA GYM. All Rights Reserved. | Premium Fitness Excellence</p>
+            </div>
+        </div>
+
+        <!-- Back to Top Button -->
+        <button id="backToTop" class="back-to-top">↑</button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
